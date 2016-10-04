@@ -11,14 +11,12 @@ int main(){
     for(int a0 = 0; a0 < t; a0++){
         long long int n,m,a,c=0;
         cin >> n;m=n;
-        while(m!=0)
-            {
+        while(m!=0){
             a=m%10;
-           
-            if(a!=0&&n%a==0)
-                {  c++;
-            
-            } m/=10;
+            if(a!=0&&n%a==0){
+                c++;
+            }
+            m/=10;
         }
         cout<<c<<"\n";
     }

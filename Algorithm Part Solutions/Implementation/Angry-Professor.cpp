@@ -9,7 +9,8 @@ int main(){
     int t,a1=0;
     cin >> t;
     for(int a0 = 0; a0 < t; a0++){
-        int n; a1=0;
+        int n; 
+        a1=0;
         int k;
         cin >> n >> k;
         vector<int> a(n);
